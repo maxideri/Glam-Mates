@@ -1,0 +1,204 @@
+/* ==== GENERAL ==== */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.display-4,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+}
+p,
+.p
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+.text-primary-800{
+    color: #543012;
+}
+.text-primary-600{
+    color: #B3611D;
+}
+.text-primary-500{
+    color: #D48442;
+}
+.text-primary-300{
+    color: #E2AB7F;
+}
+.text-primary-100{
+    color: #FBD8BC;
+}
+.text-neutral-700{
+    color: #636D7B;
+}
+.text-neutral-900{
+    color: #1F2328;
+}
+.mt-section{
+    margin-top: 80px;
+}
+.line{
+    display: flex;
+    margin: auto;
+    width: 10.82rem;
+    border: 3px solid #D48442;
+}
+
+/* ======= INDEX ======== */
+
+/* ==== Hero ==== */
+.hero{
+    position: relative;
+    height: calc(100vh - 60px);
+    left: 0px;
+    top: 0px;
+    background: #FCF1E9;
+}
+/* Shape */
+.hero-shape{
+    position: absolute;
+    z-index: 0;
+    width: 83vw;
+    height: 53vh;
+    right: 0px;
+    bottom: 0px;
+    background-image: url(../../img/shape.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: right bottom;
+}
+.hero-text{
+    max-width: 39.65rem;
+    color: #543012;
+    z-index: 1;
+}
+.hero-img {
+    z-index: 1;
+}
+.hero-img > img{
+    border-radius: 16px;
+    width: 90%;
+    max-width: 55vh;
+}
+
+/* ==== NavBar ==== */
+.navbar{
+    z-index: 9999;
+}
+.navbar-brand{
+    color: #B3611D !important;
+}
+.active{
+    color: #B3611D !important;
+}
+
+/* ==== Card Productos ==== */
+.producto{
+    position: relative;
+    min-width: 16rem;
+    min-height: 16rem;
+    width: calc(100vw - 32px);
+    height: calc(100vw - 32px);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.crop {
+    position: absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+/* ==== Card Clientes ==== */
+.cliente{
+    box-shadow: 0px 0px 5px rgba(116, 67, 26, 0.2);
+    border-radius: 16px;
+}
+
+/* ==== Media Queries ==== */
+@media (max-width: 576px) {
+    :root {
+        font-size: 12px;
+    }
+    .hero{
+        height: calc(80vh);
+    }
+    .hero-img > img {
+        max-width: 35vh;
+    }
+ 
+}
+@media (min-width: 576px) and (max-width: 992px) {
+    :root {
+        font-size: 14px;
+    }
+    .hero{
+        height: calc(85vh);
+    }
+    .hero-img > img {
+        max-width: 35vh;
+    }
+    .hero-text{
+        width: 450px;
+    }
+    .producto{
+        min-width: 15rem;
+        min-height: 15rem;
+        width: auto;
+        height: auto;
+    }
+    .mt-section{
+        margin-top: 112px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    :root {
+        font-size: 14px;
+    }
+    .hero{
+        height: calc(85vh);
+    }
+    .hero-img > img {
+        max-width: 35vh;
+    }
+    .hero-text{
+        width: 450px;
+    }
+    .producto{
+        min-width: 16rem;
+        min-height: 16rem;
+        width: auto;
+        height: auto;
+    }
+    .mt-section{
+        margin-top: 112px;
+    }
+}
+@media (min-width: 992px){
+    .producto{
+        width: 16rem;
+        height: 16rem;
+    }
+    .mt-section{
+        margin-top: 184px;
+    }
+}
