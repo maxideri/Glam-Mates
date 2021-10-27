@@ -134,10 +134,21 @@ p,
     border-radius: 16px;
 }
 
+/*  ==== Pasos Pedido ==== */
+.pasos{
+    background: #FBD8BC;
+    border-radius: 2.5rem;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 5rem;
+    text-align: center;
+    width: 5rem;
+}
+
 /* ==== Media Queries ==== */
 @media (max-width: 576px) {
     :root {
-        font-size: 12px;
+        font-size: 13px;
     }
     .hero{
         height: calc(80vh);
@@ -172,7 +183,7 @@ p,
 }
 @media (min-width: 992px) and (max-width: 1200px) {
     :root {
-        font-size: 14px;
+        font-size: 15px;
     }
     .hero{
         height: calc(85vh);
