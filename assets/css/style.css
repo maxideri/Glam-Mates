@@ -145,6 +145,20 @@ p,
     width: 5rem;
 }
 
+/* ==== Metodos de envio y de pago ==== */
+.card-metodos{
+    background: #F9FAFA;
+    border-radius: 16px;
+    width: 100%;
+    height: 300px;
+    max-width: 380px;
+}
+
+/* ==== Mapa ==== */
+.mapa{
+    height: 300px;
+}
+
 /* ==== Media Queries ==== */
 @media (max-width: 576px) {
     :root {
@@ -180,6 +194,12 @@ p,
     .mt-section{
         margin-top: 112px;
     }
+    .card-metodos{
+        max-width: 330px;
+    }
+    .mapa{
+        height: 480px;
+    }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
     :root {
@@ -203,6 +223,9 @@ p,
     .mt-section{
         margin-top: 112px;
     }
+    .mapa{
+        height: 600px;
+    }
 }
 @media (min-width: 992px){
     .producto{
@@ -211,5 +234,8 @@ p,
     }
     .mt-section{
         margin-top: 184px;
+    }
+    .mapa{
+        height: 600px;
     }
 }
