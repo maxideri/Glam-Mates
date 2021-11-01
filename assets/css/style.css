@@ -170,7 +170,12 @@ p,
     height: 300px;
 }
 
-/* ==== Media Queries ==== */
+/* ==== QUIENES SOMOS ==== */
+.img-historia{
+    border-radius: 16px;
+}
+
+/* ==== MEDIA QUERIS ==== */
 @media (max-width: 576px) {
     :root {
         font-size: 13px;
