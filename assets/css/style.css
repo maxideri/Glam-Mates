@@ -59,6 +59,25 @@ p,
     border: 3px solid #D48442;
 }
 
+/* ==== NavBar ==== */
+.navbar{
+    z-index: 9999;
+}
+.navbar-brand{
+    color: #B3611D !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+.active{
+    color: #B3611D !important;
+}
+.fa-instagram{
+    margin-right:0.5rem;
+}
+
+
 /* ======= INDEX ======== */
 
 /* ==== Hero ==== */
@@ -107,17 +126,6 @@ p,
     width: 2.5rem;
 }
 
-/* ==== NavBar ==== */
-.navbar{
-    z-index: 9999;
-}
-.navbar-brand{
-    color: #B3611D !important;
-}
-.active{
-    color: #B3611D !important;
-}
-
 /* ==== Card Productos ==== */
 .producto{
     position: relative;
@@ -127,6 +135,8 @@ p,
     height: calc(100vw - 32px);
     border-radius: 1rem;
     overflow: hidden;
+    background-size: cover;
+    background-position: center;
 }
 .crop {
     position: absolute;
@@ -155,6 +165,12 @@ p,
     text-align: center;
     width: 5rem;
 }
+.p-pedido{
+    padding: 4rem 0px;
+}
+.mt-pedido{
+    margin-top: 4.5rem;
+}
 
 /* ==== Metodos de envio y de pago ==== */
 .card-metodos{
@@ -170,11 +186,63 @@ p,
     height: 300px;
 }
 
+/* ======= PRODUCTOS ======== */
+
+.filter{
+    max-width: 5rem;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 0.7rem;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 1vw;
+}
+
+.multiphoto{
+    margin-top: 10px;
+}
+.modal{
+    z-index: 10000;
+}
+.modal-content{
+    border-radius: 16px;
+}
+
+.producto-modal{
+    height: 50vh;
+    background-size: cover;
+    background-position:center;
+}
+.producto-modal-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 20px;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding: 0.75rem;
+    border-bottom-right-radius: calc(0.3rem - 1px);
+    border-bottom-left-radius: calc(0.3rem - 1px);
+}
+.contactar{
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    letter-spacing: 0.16em;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* ==== QUIENES SOMOS ==== */
 .img-historia{
     border-radius: 16px;
 }
-
 /* ==== MEDIA QUERIS ==== */
 @media (max-width: 576px) {
     :root {
@@ -186,7 +254,6 @@ p,
     .hero-img > img {
         max-width: 35vh;
     }
- 
 }
 @media (min-width: 576px) and (max-width: 992px) {
     :root {
@@ -206,6 +273,7 @@ p,
         min-height: 15rem;
         width: auto;
         height: auto;
+
     }
     .mt-section{
         margin-top: 112px;
@@ -242,6 +310,9 @@ p,
     .mapa{
         height: 600px;
     }
+    .producto-modal{
+        height: 60vh;
+    }
 }
 @media (min-width: 992px){
     .producto{
@@ -253,5 +324,28 @@ p,
     }
     .mapa{
         height: 600px;
+    }
+    .producto-modal{
+        height: 70vh;
+    }
+    .navbar-brand{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .modal-content{
+        border-radius: 20px;
+    }
+    .carousel-inner{
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .pe-modal{
+        padding-right: 2rem;
+    }
+    .p-pedido{
+        padding: 5rem 0px;
+    }
+    .mt-pedido{
+        margin-top: 7.5rem;
     }
 }
