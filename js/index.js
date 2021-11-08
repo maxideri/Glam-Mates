@@ -32,7 +32,7 @@ function mostrarProductos(){
             modalButton.setAttribute("type","button");
             modalButton.setAttribute("data-bs-toggle","modal")
             modalButton.setAttribute("data-bs-target",`#${tipo}${producto[0]}`) 
-            modalButton.setAttribute("style",`background-image: url(./../../${producto[2]}`)
+            modalButton.setAttribute("style",`background-image: url(../../${producto[2]})`)
             modalButton.innerHTML = `<img class="multiphoto" src="img/productos/multiphoto.svg" height="20px">`
             products.appendChild(modalButton)
 
@@ -96,7 +96,7 @@ function mostrarProductos(){
                 else {
                     foto.className = "producto-modal carousel-item"
                 }
-                foto.setAttribute("style",`background-image: url(./../../${producto[c]})`)
+                foto.setAttribute("style",`background-image: url(../../${producto[c]})`)
                 carousel.appendChild(foto)
             }
             i++;
