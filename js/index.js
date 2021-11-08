@@ -28,7 +28,7 @@ function mostrarProductos(){
 
             // Creo el boton para el modal segun bootstrap
             let modalButton = document.createElement("div");
-            modalButton.className = "producto col-12 col-sm-6 col-md-4 col-xl-3 mb-3 mx-2 d-flex justify-content-end";
+            modalButton.className = "producto col-12 col-sm-6 col-md-4 col-lg-3 my-3 mx-3 d-flex justify-content-end";
             modalButton.setAttribute("type","button");
             modalButton.setAttribute("data-bs-toggle","modal")
             modalButton.setAttribute("data-bs-target",`#${tipo}${producto[0]}`) 

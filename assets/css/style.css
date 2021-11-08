@@ -129,24 +129,14 @@ p,
 /* ==== Card Productos ==== */
 .producto{
     position: relative;
-    min-width: 16rem;
-    min-height: 16rem;
-    width: calc(100vw - 32px);
-    height: calc(100vw - 32px);
+    min-width: 15rem;
+    min-height: 15rem;
+    width: calc(100vw - 80px);
+    height: calc(100vw - 80px);
     border-radius: 1rem;
     overflow: hidden;
     background-size: cover;
     background-position: center;
-}
-.crop {
-    position: absolute;
-    left: -100%;
-    right: -100%;
-    top: -100%;
-    bottom: -100%;
-    margin: auto;
-    min-height: 100%;
-    min-width: 100%;
 }
 
 /* ==== Card Clientes ==== */
@@ -273,7 +263,6 @@ p,
         min-height: 15rem;
         width: auto;
         height: auto;
-
     }
     .mt-section{
         margin-top: 112px;
@@ -285,39 +274,11 @@ p,
         height: 480px;
     }
 }
-@media (min-width: 992px) and (max-width: 1200px) {
-    :root {
-        font-size: 15px;
-    }
-    .hero{
-        height: calc(85vh);
-    }
-    .hero-img > img {
-        max-width: 35vh;
-    }
-    .hero-text{
-        width: 450px;
-    }
-    .producto{
-        min-width: 16rem;
-        min-height: 16rem;
-        width: auto;
-        height: auto;
-    }
-    .mt-section{
-        margin-top: 112px;
-    }
-    .mapa{
-        height: 600px;
-    }
-    .producto-modal{
-        height: 60vh;
-    }
-}
 @media (min-width: 992px){
     .producto{
-        width: 16rem;
-        height: 16rem;
+        width: calc(25% - 2.25rem);
+        height: 0;
+        padding-bottom: calc(25% - 2.25rem);
     }
     .mt-section{
         margin-top: 184px;
@@ -347,5 +308,32 @@ p,
     }
     .mt-pedido{
         margin-top: 7.5rem;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    :root {
+        font-size: 15px;
+    }
+    .hero{
+        height: calc(85vh);
+    }
+    .hero-img > img {
+        max-width: 35vh;
+    }
+    .hero-text{
+        width: 450px;
+    }
+    .producto{
+        min-width: 12rem;
+        min-height: 12rem;
+    }
+    .mt-section{
+        margin-top: 112px;
+    }
+    .mapa{
+        height: 600px;
+    }
+    .producto-modal{
+        height: 60vh;
     }
 }
