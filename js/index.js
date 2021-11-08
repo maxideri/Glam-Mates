@@ -96,7 +96,7 @@ function mostrarProductos(){
                 else {
                     foto.className = "producto-modal carousel-item"
                 };
-                foto.setAttribute("style",`background-image: url('../${producto[c]}')`);
+                foto.setAttribute("style",`background-image: url('${producto[c]}')`);
                 carousel.appendChild(foto);
             }
             i++;
