@@ -2,30 +2,30 @@
 
 const MATES = { // Formato --> ["Modelo", precio, ref-fotos]
     "calabaza": [
-        ["Madera", "$2400", "img/l360/l360-1.jpg","img/l360/l360-2.jpg","img/l360/l360-3.jpg","img/l360/l360-4.jpg"],
-        ["Resplandor","$1300", "img/resplandor/resplandor-1.jpg", "img/resplandor/resplandor-2.jpg","img/resplandor/resplandor-3.jpg","img/resplandor/resplandor-4.jpg","img/resplandor/resplandor-5.jpg","img/resplandor/resplandor-6.jpg","img/resplandor/resplandor-7.jpg","img/resplandor/resplandor-8.jpg","img/resplandor/resplandor-9.jpg","img/resplandor/resplandor-10.jpg"],
-        ["Laqueado", "$1300","img/lq/lq-1.jpg", "img/lq/lq-2.jpg"],
-        ["Campero","$1950","img/campero/campero-1.jpg", "img/campero/campero-2.jpg","img/campero/campero-3.jpg","img/campero/campero-4.jpg","img/campero/campero-5.jpg"],
-        ["Eco","$1300","img/eco/eco-1.jpg", "img/eco/eco-2.jpg","img/eco/eco-3.jpg","img/eco/eco-4.jpg","img/eco/eco-5.jpg","img/eco/eco-6.jpg","img/eco/eco-7.jpg"],
-        ["Textil","$1300","img/textil/textil-1.jpg", "img/textil/textil-2.jpg", "img/textil/textil-3.jpg","img/textil/textil-4.jpg","img/textil/textil-5.jpg","img/textil/textil-6.jpg","img/textil/textil-7.jpg","img/textil/textil-8.jpg","img/textil/textil-9.jpg","img/textil/textil-10.jpg","img/textil/textil-11.jpg"],
-        ["Perla","$2980","img/perla/perla-1.jpg","img/perla/perla-2.jpg"],
-        ["Yerra","$1500", "img/yerra/yerra-1.jpg", "img/yerra/yerra-2.jpg","img/yerra/yerra-3.jpg","img/yerra/yerra-4.jpg"]
+        ["Madera", "$2400", "img/productos/l360/l360-1.jpg","img/productos/l360/l360-2.jpg","img/productos/l360/l360-3.jpg","img/productos/l360/l360-4.jpg"],
+        ["Resplandor","$1300", "img/productos/resplandor/resplandor-1.jpg", "img/productos/resplandor/resplandor-2.jpg","img/productos/resplandor/resplandor-3.jpg","img/productos/resplandor/resplandor-4.jpg","img/productos/resplandor/resplandor-5.jpg","img/productos/resplandor/resplandor-6.jpg","img/productos/resplandor/resplandor-7.jpg","img/productos/resplandor/resplandor-8.jpg","img/productos/resplandor/resplandor-9.jpg","img/productos/resplandor/resplandor-10.jpg"],
+        ["Laqueado", "$1300","img/productos/lq/lq-1.jpg", "img/productos/lq/lq-2.jpg"],
+        ["Campero","$1950","img/productos/campero/campero-1.jpg", "img/productos/campero/campero-2.jpg","img/productos/campero/campero-3.jpg","img/productos/campero/campero-4.jpg","img/productos/campero/campero-5.jpg"],
+        ["Eco","$1300","img/productos/eco/eco-1.jpg", "img/productos/eco/eco-2.jpg","img/productos/eco/eco-3.jpg","img/productos/eco/eco-4.jpg","img/productos/eco/eco-5.jpg","img/productos/eco/eco-6.jpg","img/productos/eco/eco-7.jpg"],
+        ["Textil","$1300","img/productos/textil/textil-1.jpg", "img/productos/textil/textil-2.jpg", "img/productos/textil/textil-3.jpg","img/productos/textil/textil-4.jpg","img/productos/textil/textil-5.jpg","img/productos/textil/textil-6.jpg","img/productos/textil/textil-7.jpg","img/productos/textil/textil-8.jpg","img/productos/textil/textil-9.jpg","img/productos/textil/textil-10.jpg","img/productos/textil/textil-11.jpg"],
+        ["Perla","$2980","img/productos/perla/perla-1.jpg","img/productos/perla/perla-2.jpg"],
+        ["Yerra","$1500", "img/productos/yerra/yerra-1.jpg", "img/productos/yerra/yerra-2.jpg","img/productos/yerra/yerra-3.jpg","img/productos/yerra/yerra-4.jpg"]
     ],
     "aluminio" : [
-        ["Perla","$2700","img/aluperla/aluperla-1.jpg","img/aluperla/aluperla-2.jpg","img/aluperla/aluperla-3.jpg","img/aluperla/aluperla-4.jpg","img/aluperla/aluperla-5.jpg"]
+        ["Perla","$2700","img/productos/aluperla/aluperla-1.jpg","img/productos/aluperla/aluperla-2.jpg","img/productos/aluperla/aluperla-3.jpg","img/productos/aluperla/aluperla-4.jpg","img/productos/aluperla/aluperla-5.jpg"]
     ],
     "acero_inoxidable" : [
-        ["Resplandor", "$1300","img/aoresplandor/respl-1.jpg", "img/aoresplandor/respl-2.jpg"],
-        ["Opaco","$1300", "img/aoopc/opc-1.jpg", "img/aoopc/opc-2.jpg"],
-        ["de_diseño","$1500", "img/aodis/dis-1.jpg"]
+        ["Resplandor", "$1300","img/productos/aoresplandor/respl-1.jpg", "img/productos/aoresplandor/respl-2.jpg"],
+        ["Opaco","$1300", "img/productos/aoopc/opc-1.jpg", "img/productos/aoopc/opc-2.jpg"],
+        ["de_diseño","$1500", "img/productos/aodis/dis-1.jpg"]
     ],
     "madera_imbuia" : [
-        ["Imbuia", "$2600", "img/mdi/mdi-1.jpg", "img/mdi/mdi-2.jpg", "img/mdi/mdi-3.jpg"]
+        ["Imbuia", "$2600", "img/productos/mdi/mdi-1.jpg", "img/productos/mdi/mdi-2.jpg", "img/productos/mdi/mdi-3.jpg"]
     ]
 };
 const BOMBILLAS = {
     "acero_inoxidable" : [
-        ["Preciosa", "$1700 (19cm) / $1900 (23cm)", "img/bombiprec/prec-1.jpg","img/bombiprec/prec-2.jpg" ]
+        ["Preciosa", "$1700 (19cm) / $1900 (23cm)", "img/productos/bombiprec/prec-1.jpg","img/productos/bombiprec/prec-2.jpg" ]
     ]
 }
 
@@ -74,7 +74,7 @@ function mostrarProductos(x){
             modalButton.setAttribute("data-bs-toggle","modal")
             modalButton.setAttribute("data-bs-target",`#${tipo}${producto[0]}`) 
             modalButton.setAttribute("style",`background-image: url(../../${producto[2]}`)
-            modalButton.innerHTML = `<img class="multiphoto" src="img/multiphoto.svg" height="20px">`
+            modalButton.innerHTML = `<img class="multiphoto" src="img/productos/multiphoto.svg" height="20px">`
             products.appendChild(modalButton)
 
             // Creo el modal segun bootstrap
