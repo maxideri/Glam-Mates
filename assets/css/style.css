@@ -169,7 +169,6 @@ p,
     border-radius: 16px;
     width: 100%;
     height: 300px;
-    max-width: 380px;
 }
 
 /* ==== Mapa Google ==== */
@@ -260,8 +259,8 @@ p,
         width: 450px;
     }
     .producto{
-        min-width: 15rem;
-        min-height: 15rem;
+        min-width: 13.75rem;
+        min-height: 13.75rem;
         width: auto;
         height: auto;
     }
@@ -269,10 +268,21 @@ p,
         margin-top: 112px;
     }
     .card-metodos{
-        max-width: 330px;
+        max-width: calc(330px - 2rem);
     }
     .mapa{
         height: 480px;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    .producto{
+        min-width: 15.25rem;
+        min-height: 15.25rem;
+        width: auto;
+        height: auto;
+    }
+    .card-metodos{
+        max-width: 100%;
     }
 }
 @media (min-width: 992px){

@@ -32,10 +32,18 @@ const BOMBILLAS = {
 const filter = document.getElementById("filter");
 filter.addEventListener("click", filtro);
 
-// Obtento el tipo de boton en formato str para poder ejecutar la funcion mostrarProductos con el str "MATES" al cargar la pag.
+
 function filtro (e){
-    let f = e.target.innerHTML
-    mostrarProductos(f)
+    let nodo = e.target;
+    if(nodo.id != "filter"){
+        for (let i = 0; i < filter.children.length; i++) {
+            filter.children[i].className = "filter col-3 btn btn-outline-dark";        
+        };
+        nodo.classList.add("bg-dark", "text-white")
+        // Obtento el tipo de boton en formato str para poder ejecutar la funcion mostrarProductos con el str "MATES" al cargar la pag.
+        let f = e.target.innerHTML
+        mostrarProductos(f)
+    }
 };
 
 function mostrarProductos(x){
