@@ -30,11 +30,11 @@ function mostrarProductos(){
             let modalButton = document.createElement("div");
             modalButton.className = "producto col-12 col-sm-6 col-md-4 col-lg-3 my-3 mx-3 d-flex justify-content-end";
             modalButton.setAttribute("type","button");
-            modalButton.setAttribute("data-bs-toggle","modal")
-            modalButton.setAttribute("data-bs-target",`#${tipo}${producto[0]}`) 
-            modalButton.setAttribute("style",`background-image: url(../../${producto[2]})`)
-            modalButton.innerHTML = `<img class="multiphoto" src="img/productos/multiphoto.svg" height="20px">`
-            products.appendChild(modalButton)
+            modalButton.setAttribute("data-bs-toggle","modal");
+            modalButton.setAttribute("data-bs-target",`#${tipo}${producto[0]}`);
+            modalButton.setAttribute("style",`background-image: url('../../${producto[2]}')`);
+            modalButton.innerHTML = `<img class="multiphoto" src="img/productos/multiphoto.svg" height="20px">`;
+            products.appendChild(modalButton);
 
             // Creo el modal segun bootstrap
             let modal = document.createElement("div");
@@ -95,9 +95,9 @@ function mostrarProductos(){
                 }
                 else {
                     foto.className = "producto-modal carousel-item"
-                }
-                foto.setAttribute("style",`background-image: url(../../${producto[c]})`)
-                carousel.appendChild(foto)
+                };
+                foto.setAttribute("style",`background-image: url('../../${producto[c]}')`);
+                carousel.appendChild(foto);
             }
             i++;
         })
