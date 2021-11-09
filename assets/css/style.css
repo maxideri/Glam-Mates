@@ -57,6 +57,7 @@ p,
     margin: auto;
     width: 10.82rem;
     border: 3px solid #D48442;
+    opacity: 1;
 }
 
 /* ==== NavBar ==== */
@@ -74,7 +75,7 @@ p,
     color: #B3611D !important;
 }
 .fa-instagram{
-    margin-right:0.5rem;
+    margin-right:0.25rem;
 }
 
 
@@ -137,6 +138,13 @@ p,
     overflow: hidden;
     background-size: cover;
     background-position: center;
+}
+.btn-catalogo{
+    letter-spacing: 0.16em;
+}
+.btn-catalogo:hover{
+    background-color: #1F2328;
+    color: white;
 }
 
 /* ==== Card Clientes ==== */
