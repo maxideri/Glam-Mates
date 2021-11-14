@@ -2,32 +2,56 @@
 
 const MATES = { // Formato --> ["Modelo", precio, ref-fotos]
     "calabaza": [
-        ["Madera", "$2400", "img/productos/l360/l360-1.jpg","img/productos/l360/l360-2.jpg","img/productos/l360/l360-3.jpg","img/productos/l360/l360-4.jpg"],
-        ["Resplandor","$1300", "img/productos/resplandor/resplandor-1.jpg", "img/productos/resplandor/resplandor-2.jpg","img/productos/resplandor/resplandor-3.jpg","img/productos/resplandor/resplandor-4.jpg","img/productos/resplandor/resplandor-5.jpg","img/productos/resplandor/resplandor-6.jpg","img/productos/resplandor/resplandor-7.jpg","img/productos/resplandor/resplandor-8.jpg","img/productos/resplandor/resplandor-9.jpg","img/productos/resplandor/resplandor-10.jpg"],
-        ["Laqueado", "$1300","img/productos/lq/lq-1.jpg", "img/productos/lq/lq-2.jpg"],
-        ["Campero","$1950","img/productos/campero/campero-1.jpg", "img/productos/campero/campero-2.jpg","img/productos/campero/campero-3.jpg","img/productos/campero/campero-4.jpg","img/productos/campero/campero-5.jpg"],
-        ["Eco","$1300","img/productos/eco/eco-1.jpg", "img/productos/eco/eco-2.jpg","img/productos/eco/eco-3.jpg","img/productos/eco/eco-4.jpg","img/productos/eco/eco-5.jpg","img/productos/eco/eco-6.jpg","img/productos/eco/eco-7.jpg"],
-        ["Textil","$1300","img/productos/textil/textil-1.jpg", "img/productos/textil/textil-2.jpg", "img/productos/textil/textil-3.jpg","img/productos/textil/textil-4.jpg","img/productos/textil/textil-5.jpg","img/productos/textil/textil-6.jpg","img/productos/textil/textil-7.jpg","img/productos/textil/textil-8.jpg","img/productos/textil/textil-9.jpg","img/productos/textil/textil-10.jpg","img/productos/textil/textil-11.jpg"],
-        ["Perla","$2980","img/productos/perla/perla-1.jpg","img/productos/perla/perla-2.jpg"],
-        ["Yerra","$1500", "img/productos/yerra/yerra-1.jpg", "img/productos/yerra/yerra-2.jpg","img/productos/yerra/yerra-3.jpg","img/productos/yerra/yerra-4.jpg"]
+        ["Madera", "$2400", "img/productos/calabaza/l360/l360-1-min.jpg","img/productos/calabaza/l360/l360-2-min.jpg","img/productos/calabaza/l360/l360-3-min.jpg","img/productos/calabaza/l360/l360-4-min.jpg"],
+        ["Resplandor","$1300", "img/productos/calabaza/resplandor/resplandor-1-min.jpg", "img/productos/calabaza/resplandor/resplandor-2-min.jpg","img/productos/calabaza/resplandor/resplandor-3-min.jpg","img/productos/calabaza/resplandor/resplandor-4-min.jpg","img/productos/calabaza/resplandor/resplandor-5-min.jpg","img/productos/calabaza/resplandor/resplandor-6-min.jpg","img/productos/calabaza/resplandor/resplandor-7-min.jpg","img/productos/calabaza/resplandor/resplandor-8-min.jpg","img/productos/calabaza/resplandor/resplandor-9-min.jpg","img/productos/calabaza/resplandor/resplandor-10-min.jpg"],
+        ["Laqueado", "$1300","img/productos/calabaza/lq/lq-1-min.jpg", "img/productos/calabaza/lq/lq-2-min.jpg"],
+        ["Campero","$1950","img/productos/calabaza/campero/campero-1-min.jpg", "img/productos/calabaza/campero/campero-2-min.jpg","img/productos/calabaza/campero/campero-3-min.jpg","img/productos/calabaza/campero/campero-4-min.jpg","img/productos/calabaza/campero/campero-5-min.jpg"],
+        ["Eco","$1300","img/productos/calabaza/eco/eco-1-min.jpg", "img/productos/calabaza/eco/eco-2-min.jpg","img/productos/calabaza/eco/eco-3-min.jpg","img/productos/calabaza/eco/eco-4-min.jpg","img/productos/calabaza/eco/eco-5-min.jpg","img/productos/calabaza/eco/eco-6-min.jpg","img/productos/calabaza/eco/eco-7-min.jpg"],
+        ["Textil","$1300","img/productos/calabaza/textil/textil-1-min.jpg", "img/productos/calabaza/textil/textil-2-min.jpg", "img/productos/calabaza/textil/textil-3-min.jpg","img/productos/calabaza/textil/textil-4-min.jpg","img/productos/calabaza/textil/textil-5-min.jpg","img/productos/calabaza/textil/textil-6-min.jpg","img/productos/calabaza/textil/textil-7-min.jpg","img/productos/calabaza/textil/textil-8-min.jpg","img/productos/calabaza/textil/textil-9-min.jpg","img/productos/calabaza/textil/textil-10-min.jpg","img/productos/calabaza/textil/textil-11-min.jpg"],
+        ["Perla","$2980","img/productos/calabaza/perla/perla-1-min.jpg","img/productos/calabaza/perla/perla-2-min.jpg"],
+        ["Yerra","$1500", "img/productos/calabaza/yerra/yerra-1-min.jpg", "img/productos/calabaza/yerra/yerra-2-min.jpg","img/productos/calabaza/yerra/yerra-3-min.jpg","img/productos/calabaza/yerra/yerra-4-min.jpg"]
     ],
     "aluminio" : [
-        ["Perla","$2700","img/productos/aluperla/aluperla-1.jpg","img/productos/aluperla/aluperla-2.jpg","img/productos/aluperla/aluperla-3.jpg","img/productos/aluperla/aluperla-4.jpg","img/productos/aluperla/aluperla-5.jpg"]
+        ["Perla","$2700","img/productos/aluminio/aluperla/aluperla-1-min.jpg","img/productos/aluminio/aluperla/aluperla-2-min.jpg","img/productos/aluminio/aluperla/aluperla-3-min.jpg","img/productos/aluminio/aluperla/aluperla-4-min.jpg","img/productos/aluminio/aluperla/aluperla-5-min.jpg", "img/productos/aluminio/aluperla/aluperla-6-min.jpg"]
     ],
     "acero_inoxidable" : [
-        ["Resplandor", "$1300","img/productos/aoresplandor/respl-1.jpg", "img/productos/aoresplandor/respl-2.jpg"],
-        ["Opaco","$1300", "img/productos/aoopc/opc-1.jpg", "img/productos/aoopc/opc-2.jpg"],
-        ["de_diseño","$1500", "img/productos/aodis/dis-1.jpg"]
+        ["Resplandor", "$1300","img/productos/acero/resplandor/respl_1-min.jpg", "img/productos/acero/resplandor/respl_2-min.jpg","img/productos/acero/resplandor/respl_3-min.jpg","img/productos/acero/resplandor/respl_4-min.jpg","img/productos/acero/resplandor/respl_5-min.jpg","img/productos/acero/resplandor/respl_6-min.jpg"],
+        ["Opaco","$1300", "img/productos/acero/opc/opc-1-min.jpg", "img/productos/acero/opc/opc-2-min.jpg"],
+        ["de_diseño","$1500", "img/productos/acero/disenio/dis-1-min.jpg"]
     ],
     "madera_imbuia" : [
-        ["Imbuia", "$2600", "img/productos/mdi/mdi-1.jpg", "img/productos/mdi/mdi-2.jpg", "img/productos/mdi/mdi-3.jpg"]
+        ["Imbuia", "$2600", "img/productos/madera/imbuia/mdi-1-min.jpg", "img/productos/madera/imbuia/mdi-2-min.jpg", "img/productos/madera/imbuia/mdi-3-min.jpg"]
     ]
 };
 const BOMBILLAS = {
     "acero_inoxidable" : [
-        ["Preciosa", "$1700 (19cm) / $1900 (23cm)", "img/productos/bombiprec/prec-1.jpg","img/productos/bombiprec/prec-2.jpg" ]
+        ["Preciosa", "$1700 (19cm) / $1900 (23cm)", "img/productos/bombillas/preciosa/prec-1-min.jpg","img/productos/bombillas/preciosa/prec-2-min.jpg" ],
+        ["Lechuza", "$1500", "img/productos/bombillas/lechuza/lech_1-min.jpg"],
+        ["Diadema", "$1500", "img/productos/bombillas/diadema/dia_1-min.jpg"],
+        ["Color", "$1100 (23cm)", "img/productos/bombillas/color/color_1-min.jpg"]
     ]
 }
+
+const SETS = {
+    "ecocuero" : [
+        ["Latas", "$1400", "img/productos/sets/ecocuero/latas/ecol_1-min.jpg", "img/productos/sets/ecocuero/latas/ecol_2-min.jpg", "img/productos/sets/ecocuero/latas/ecol_3-min.jpg", "img/productos/sets/ecocuero/latas/ecol_4-min.jpg", "img/productos/sets/ecocuero/latas/ecol_5-min.jpg", "img/productos/sets/ecocuero/latas/ecol_6-min.jpg", "img/productos/sets/ecocuero/latas/ecol_7-min.jpg"],
+        ["Set", "$4000", "img/productos/sets/ecocuero/tyl/eco_1-min.jpg","img/productos/sets/ecocuero/tyl/eco_2-min.jpg", "img/productos/sets/ecocuero/tyl/eco_3-min.jpg", "img/productos/sets/ecocuero/tyl/eco_4-min.jpg", "img/productos/sets/ecocuero/tyl/eco_5-min.jpg", "img/productos/sets/ecocuero/tyl/eco_6-min.jpg", "img/productos/sets/ecocuero/tyl/eco_7-min.jpg", "img/productos/sets/ecocuero/tyl/eco_8-min.jpg", "img/productos/sets/ecocuero/tyl/eco_9-min.jpg", "img/productos/sets/ecocuero/tyl/eco_10-min.jpg", "img/productos/sets/ecocuero/tyl/eco_11-min.jpg", "img/productos/sets/ecocuero/tyl/eco_12-min.jpg", "img/productos/sets/ecocuero/tyl/eco_13-min.jpg", "img/productos/sets/ecocuero/tyl/eco_14-min.jpg"]
+    ],
+    "engomado" : [
+        ["Termo", "$3200", "img/productos/sets/engomado/engo_1-min.jpg"]
+    ],
+    "tela" : [
+        ["Set", "$4000 (set) - $1400 (latas)", "img/productos/sets/tela/tela_1-min.jpg", "img/productos/sets/tela/tela_2-min.jpg", "img/productos/sets/tela/tela_3-min.jpg", "img/productos/sets/tela/tela_4-min.jpg", "img/productos/sets/tela/tela_5-min.jpg", "img/productos/sets/tela/tela_6-min.jpg"]
+    ]        
+}
+
+const ACCESORIOS = {
+    "mate" : [
+        ["Cadenita", "$500", "img/productos/accesorios/cadena/cad_1-min.jpg", "img/productos/accesorios/cadena/cad_2-min.jpg", "img/productos/accesorios/cadena/cad_3-min.jpg"],
+        ["Flor", "$500", "img/productos/accesorios/flor_p/flor_1-min.jpg" ]
+    ]
+}
+
 
 const filter = document.getElementById("filter");
 filter.addEventListener("click", filtro);
@@ -114,7 +138,7 @@ function mostrarProductos(x){
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="producto-modal-footer">
-                                    <h5><strong>Mate de ${Object.keys(p)[j].replace("_"," ")}</strong></h5>
+                                    <h5><strong>${x.charAt(0).toUpperCase() + x.slice(1).toLowerCase()} de ${Object.keys(p)[j].replace("_"," ")}</strong></h5>
                                     <p>Modelo: ${producto[0].replace("_"," ")}</p>
                                     <h5>${producto[1]}</h5>
                                     <a href="https://www.instagram.com/glam.mates" target="_blank"class="p contactar btn btn-dark"><i class="fab fa-instagram fa-lg"></i>CONTACTAR</a>
